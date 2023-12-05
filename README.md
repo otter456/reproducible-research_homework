@@ -1,9 +1,18 @@
 # Reproducible research: version control and R
 
-1. Answers to questions 1, 2, and can be found in the README.md within the logistic_growth repository: https://github.com/otter456/logistic_growth
-2. See above
-3. See above
-4. 
+## Questions 1-3
+
+Answers to questions 1, 2, and 3 can be found in the README.md within the logistic_growth repository: https://github.com/otter456/logistic_growth
+
+## Question 4
+
+a) The code to produce two random walks creates two distinct paths. The paths begin at the (x,y) coordinates (0,0) and takes a step at a fixed distance (h=0.25). This step is taken in a direction that is given by a random angle betweeen 0 and 2π (360 degrees). At the new (x,y) coordinate reached, another step is taken in a different random direction. This repeats 500 times, where at each iteration, the angels are chosen from a uniform distribution. 
+
+b) A random seed is a value used to initiate a pseudo-random number-generator, such as runif() used in the code. A pseudo-random number-generator will consist of many long lists of pseudo-random numbers, with each list indexed by a seed. When the pseudo-random number-generator is called for the first time, a seed will be generated and the first number in the list will be indexed by that seed will be returned. Each further time the number-generator is called, the function will return the next number in the list indexed by the seed found previously. 
+
+c) To make a reproducible simulation, use set.seed() to ensure the same random distribution is given each time 
+
+## Question 5
 
 ## Instructions
 
