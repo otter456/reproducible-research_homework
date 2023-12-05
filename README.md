@@ -1,8 +1,10 @@
 # Reproducible research: version control and R
 
+# ANSWERS
+
 ## Questions 1-3
 
-Answers to questions 1, 2, and 3 can be found in the README.md within the logistic_growth repository: https://github.com/otter456/logistic_growth
+Answers to questions 1, 2, and 3 can be found in the README.md within the dev branch og my logistic_growth repository: https://github.com/otter456/logistic_growth
 
 ## Question 4
 
@@ -10,11 +12,28 @@ a) The code to produce two random walks creates two distinct paths. The paths be
 
 b) A random seed is a value used to initiate a pseudo-random number-generator, such as runif() used in the code. A pseudo-random number-generator will consist of many long lists of pseudo-random numbers, with each list indexed by a seed. When the pseudo-random number-generator is called for the first time, a seed will be generated and the first number in the list will be indexed by that seed will be returned. Each further time the number-generator is called, the function will return the next number in the list indexed by the seed found previously. 
 
-c) To make a reproducible simulation, use set.seed() to ensure the same random distribution is given each time 
+c) To make a reproducible simulation, use set.seed() to ensure the same random distribution is given each time. 
 
 ## Question 5
 
-## Instructions
+a) There are 13 columns and 33 rows
+
+b) Apply log transformation to V (Virion.volume..mn.mn.mn.) and L (Genome.length..kb.) to fit a linear model to the data. This changes the allometric equation from **V = βL^α** to **ln(V) = ln(β) + αln(L)** 
+
+c) After running the linear model, we find that the estimate for the intercept = 7.0748 and the gradient = 1.5152. We can then substitute these values to find ln(V) = ln(β) + αln(L) => ln(V) = 7.0748 + 1.5152(L) ??
+
+d) Code to plot data on a log-log plot 
+
+![image](https://github.com/otter456/reproducible-research_homework/assets/150150890/cf35e228-eee1-4ccc-82ae-ce4f262389c2)
+
+e) The estimated volume of a 300 kb dsDNA virus is 6696966
+
+## Bonus Question 
+
+
+# INSTRUCTIONS
+
+## Introduction
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
 
