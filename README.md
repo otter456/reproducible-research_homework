@@ -1,6 +1,9 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+1. Answers to questions 1, 2, and can be found in the README.md within the logistic_growth repository: https://github.com/otter456/logistic_growth
+2. See above
+3. See above
+4. 
 
 ## Instructions
 
