@@ -1,9 +1,11 @@
 #install.packages("ggplot2")
 #install.packages("gridExtra")
 
+#load the packages
 library(ggplot2)
 library(gridExtra)
 
+#function to generate random walk
 random_walk  <- function (n_steps) {
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
@@ -28,8 +30,10 @@ random_walk  <- function (n_steps) {
   
 }
 
+#generate random walk one
 data1 <- random_walk(500)
 
+#plot random walk one
 plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
   geom_path(aes(colour = time)) +
@@ -40,8 +44,10 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
   ylab("y-coordinate")
 
+#generate random walk two
 data2 <- random_walk(500)
 
+#plot random walk two
 plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   
   geom_path(aes(colour = time)) +
@@ -52,4 +58,5 @@ plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   
   ylab("y-coordinate")
 
+#print the two plots next to each other
 grid.arrange(plot1, plot2, ncol=2)
