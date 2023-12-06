@@ -8,7 +8,7 @@ Answers to questions 1, 2, and 3 can be found in the README.md my logistic_growt
 
 ## Question 4
 
-a) The code to produce two random walks creates two distinct paths. The paths begin at the (x,y) coordinates (0,0) and takes a step at a fixed distance (h=0.25). This step is taken in a direction that is given by a random angle betweeen 0 and 2π (360 degrees). At the new (x,y) coordinate reached, another step is taken in a different random direction. This repeats 500 times, where at each iteration, the angels are chosen from a uniform distribution. 
+a) The code to produce two random walks creates two distinct paths. The paths begin at the (x,y) coordinates (0,0) and takes a step at a fixed distance (h=0.25). This step is taken in a direction that is given by a random angle between 0 and 2π (360 degrees). At the new (x,y) coordinate reached, another step is taken in a different random direction. This repeats 500 times, where at each iteration, the angels are chosen from a uniform distribution. 
 
 b) A random seed is a value used to initiate a pseudo-random number-generator, such as runif() used in the code. A pseudo-random number-generator will consist of many long lists of pseudo-random numbers, with each list indexed by a seed. When the pseudo-random number-generator is called for the first time, a seed will be generated and the first number in the list will be indexed by that seed will be returned. Each further time the number-generator is called, the function will return the next number in the list indexed by the seed found previously. 
 
@@ -25,7 +25,7 @@ a) There are 13 columns and 33 rows in this data set.
 
 b) Apply log transformation to V (Virion.volume..mn.mn.mn.) and L (Genome.length..kb.) to fit a linear model to the data. This changes the allometric equation from **V = βL^α** to **ln(V) = ln(β) + αln(L)**.
 
-c) After running the linear model, we find that the estimate for the intercept = 7.0748 and the gradient = 1.5152. α is the gradient, therefore, α = 1.52 (2dp). ln(β) is the intercept, therefore, ln(β) = 7.0748 and hence β = e^7.0748 = 1182. These values are both statistically significant (<0.001) with a p-values of 2.28e-10 and 6.438x10^-10 and match the values in table 2 of the paper which shows the reseach is reproducible. 
+c) After running the linear model, we find that the estimate for the intercept = 7.0748 and the gradient = 1.5152. α is the gradient, therefore, α = 1.52 (2dp). ln(β) is the intercept, therefore, ln(β) = 7.0748 and hence β = e^7.0748 = 1182. These values are both statistically significant (<0.001) with a p-values of 2.28e-10 and 6.438x10^-10 and match the values in table 2 of the paper which shows the research is reproducible. 
 
 d) Code to plot data on a log-log plot:
 
@@ -43,23 +43,23 @@ Both reproducibility and replicability contribute to the reliability of scientif
 
 * Reproducibility refers to instances when consistent results are obtained by independent researchers using the same input data, computations steps, methods and conditions of analysis. This is checking whether the experiment or analysis can be reliably repeated by others to obtain the same results.
 
-* On the other hand, replicability is obtaining consistant results across different studies aimed at answering the same scieitific questions, each of which has obtained its own data. The important concept here is seeing if the same results are obtained, when new data (possibly with different method) is collected and new analyses are completed. 
+* On the other hand, replicability is obtaining consistent results across different studies aimed at answering the same scientific questions, each of which has obtained its own data. The important concept here is seeing if the same results are obtained, when new data (possibly with different method) is collected and new analyses are completed. 
 
-To help to enhance reproducibility and replicability of sceintific research we can use Git and GitHub
+To help to enhance reproducibility and replicability of scientific research we can use Git and GitHub
 
 * Git is the most commonly used version control system for tracking changes in the course code, enabling multiple developers to work together on non-linear development. 
 
 * GitHub is a web-based hosting service where you can upload and manage Git repositories. 
 
-Advantages and limiations of Git and GitHub: 
+Advantages and limitations of Git and GitHub: 
 
 1. Open research
    
-* An advantage of using Git/Github is that is makes research publically available, reusable and transparent by increasing discoverability and visibility of your work.
+* An advantage of using Git/GitHub is that is makes research publicaly available, reusable and transparent by increasing discoverability and visibility of your work.
       
 3. Collaboration
    
-* Git provides the tools needed for branching, merging and tracking changes which makes it adventageous over centralised version control systems. However, GitHub allows collaboration to aid communication between team mates and quality control.
+* Git provides the tools needed for branching, merging and tracking changes which makes it advantageous over centralised version control systems. However, GitHub allows collaboration to aid communication between team mates and quality control.
     
 2. Interface
 
@@ -71,11 +71,11 @@ Advantages and limiations of Git and GitHub:
   
 4. Transitioning platforms
 
-* One advantage that Git has over GitHub is that using Git makes it easier to transfer projects to other Git hosting services if needed. This is becuase only using GitHub can make you reliant on their specialised features, some of which are not transferable. 
+* One advantage that Git has over GitHub is that using Git makes it easier to transfer projects to other Git hosting services if needed. This is because only using GitHub can make you reliant on their specialised features, some of which are not transferable. 
      
 ### References 
 
-- [https://www.ncbi.nlm.nih.gov/books/NBK547546/#]
+- [https://www.ncbi.nlm.nih.gov/books/NBK547546/]
 
 - [https://simplilearn.com/tutorials/git-tutorial/git-vs-github]
 
