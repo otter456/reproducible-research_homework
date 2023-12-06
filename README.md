@@ -39,10 +39,6 @@ e) The estimated volume of a 300 kb dsDNA virus is 6884015 using the below code.
 
 ## Bonus Question 
 
-*Explain the difference between reproducibility and
-replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations
-do they have?* 
-
 Both reproducibility and replicability contribute to the reliability of scientific research.
 
 * Reproducibility refers to instances when consistent results are obtained by independent researchers using the same input data, computations steps, methods and conditions of analysis. This is checking whether the experiment or analysis can be reliably repeated by others to obtain the same results.
@@ -59,22 +55,23 @@ Advantages and limiations of Git and GitHub:
 
 1. Open research
    
-   * An advantage of using Git/Github is that is makes research publically available, reusable and transparent by increasing discoverability and visibility of your work.
+* An advantage of using Git/Github is that is makes research publically available, reusable and transparent by increasing discoverability and visibility of your work.
       
 3. Collaboration
    
-  * Git provides the tools needed for branching, merging and tracking changes which makes it adventageous over centralised version control systems. However, GitHub allows collaboration to aid communication between team mates and quality control.
+* Git provides the tools needed for branching, merging and tracking changes which makes it adventageous over centralised version control systems. However, GitHub allows collaboration to aid communication between team mates and quality control.
     
 2. Interface
 
-  * GitHub is more user-friendly than Git because it allows browsing of repositories without using the command line. Git therefore has a less feature-rich interface.
+* GitHub is more user-friendly than Git because it allows browsing of repositories without using the command line. Git therefore has a less feature-rich interface.
     
 3. Issue tracking
-   * Git focuses on version control so doesn't include project management features. These can be accessed by using GitHub which has built-in issue tracking tools to organise project and track bugs.
+   
+* Git focuses on version control so doesn't include project management features. These can be accessed by using GitHub which has built-in issue tracking tools to organise project and track bugs.
   
 4. Transitioning platforms
 
-   * One advantage that Git has over GitHub is that using Git makes it easier to transfer projects to other Git hosting services if needed. This is becuase only using GitHub can make you reliant on their specialised features, some of which are not transferable. 
+* One advantage that Git has over GitHub is that using Git makes it easier to transfer projects to other Git hosting services if needed. This is becuase only using GitHub can make you reliant on their specialised features, some of which are not transferable. 
      
 ### References 
 
