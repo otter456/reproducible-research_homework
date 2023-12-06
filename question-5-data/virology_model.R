@@ -40,7 +40,6 @@ figure <- ggplot(data = dimension_data, aes(x = L_log, y = V_log))+
 #print the figure 
 figure
 
-
 #function to find virion volume using model fit parameters
 volume <- function(length) {
   alpha = 1.5152
