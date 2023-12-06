@@ -1,3 +1,4 @@
+##Q4 script for random walk
 #install.packages("ggplot2")
 #install.packages("gridExtra")
 
