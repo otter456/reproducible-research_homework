@@ -4,7 +4,7 @@
 
 ## Questions 1-3
 
-Answers to questions 1, 2, and 3 can be found in the README.md within the dev branch og my logistic_growth repository: https://github.com/otter456/logistic_growth
+Answers to questions 1, 2, and 3 can be found in the README.md within the dev branch of my logistic_growth repository: https://github.com/otter456/logistic_growth
 
 ## Question 4
 
