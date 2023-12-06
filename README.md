@@ -25,7 +25,7 @@ a) There are 13 columns and 33 rows.
 
 b) Apply log transformation to V (Virion.volume..mn.mn.mn.) and L (Genome.length..kb.) to fit a linear model to the data. This changes the allometric equation from **V = βL^α** to **ln(V) = ln(β) + αln(L)**.
 
-c) After running the linear model, we find that the estimate for the intercept = 7.0748 and the gradient = 1.5152. α is the gradient, therefore, α = 1.52 (2dp). ln(β) is the intercept, therefore, ln(β) = 7.0748 and hence β = e^7.0748 = 1181.8. These values are both statistically significant (<0.001) with a p-value of 6.438x10^-10 and match the values in table 2 of the paper. 
+c) After running the linear model, we find that the estimate for the intercept = 7.0748 and the gradient = 1.5152. α is the gradient, therefore, α = 1.52 (2dp). ln(β) is the intercept, therefore, ln(β) = 7.0748 and hence β = e^7.0748 = 1182. These values are both statistically significant (<0.001) with a p-value of 6.438x10^-10 and match the values in table 2 of the paper. 
 
 d) Code to plot data on a log-log plot:
 
@@ -37,19 +37,24 @@ e) The estimated volume of a 300 kb dsDNA virus is 6696966.
 
 ## Bonus Question 
 
-Explain the difference between reproducibility and
+*Explain the difference between reproducibility and
 replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations
-do they have? 
+do they have?* 
 
 Reproducibility refers to instances when consistent results are obtained by independent researchers using the same input data, computations steps, methods and conditions of analysis. Replicability on the other hand, is obtaining consistant results across studies aimed at answering the same scieitific questions, each of which has obtained its own data. 
 
-Barba (2018) outlines three categories of defining reproducibility and replicability. (1) the terms can be used with no distinction between them. (2) 'Reproducibility refers to instances in which the original researcher's data and computer codes are used to regenerate the results, while replicability refers to instances in which a researcher collects new data to arrive at the same scientific findings as a previous study. (3) 'Reproducibility refers to independent researchers arriving at the same results using their own data and methods, while replicability refers to a different team arriving at the same results using the original author's artifacts. 
+Git is the most commonly used version control system and can help to enhance reproducibility and replicability of sceintific research. It is used for tracking changes in the course code, enabling multiple developers to work together on non-linear development. This is possible because of its branching capabilities which make it advantageous over centralised version control systems. 
+
+
+ 
 
 ### References 
 
-- National Academies of Sciences, Engineering, and Medicine 2019. Reproducibility
-and Replicability in Science. Washington, DC: The National Academies Press.
-[ https://www.ncbi.nlm.nih.gov/books/NBK547546/# ]
+- [ https://www.ncbi.nlm.nih.gov/books/NBK547546/# ]
+
+- [https://www.nobledesktop.com/learn/git/what-is-git#:~:text=Git%20is%20the%20most%20commonly,be%20merged%20into%20one%20source.]
+
+- 
 # INSTRUCTIONS FOR ASSIGNMENT 
 
 ## Introduction
