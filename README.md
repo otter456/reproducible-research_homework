@@ -16,17 +16,17 @@ c) To make a reproducible simulation, use set.seed() to ensure the same random d
 
 ## Question 5
 
-a) There are 13 columns and 33 rows
+a) There are 13 columns and 33 rows. 
 
-b) Apply log transformation to V (Virion.volume..mn.mn.mn.) and L (Genome.length..kb.) to fit a linear model to the data. This changes the allometric equation from **V = βL^α** to **ln(V) = ln(β) + αln(L)** 
+b) Apply log transformation to V (Virion.volume..mn.mn.mn.) and L (Genome.length..kb.) to fit a linear model to the data. This changes the allometric equation from **V = βL^α** to **ln(V) = ln(β) + αln(L)**.
 
-c) After running the linear model, we find that the estimate for the intercept = 7.0748 and the gradient = 1.5152. We can then substitute these values to find ln(V) = ln(β) + αln(L) => ln(V) = 7.0748 + 1.5152(L) ??
+c) After running the linear model, we find that the estimate for the intercept = 7.0748 and the gradient = 1.5152. α is the gradient, therefore, α = 1.52 (2dp). ln(β) is the intercept, therefore, ln(β) = 7.0748 and hence β = e^7.0748 = 1181.8. These values are both statistically significant (<0.001) with a p-value of 6.438x10^-10 and match the values in table 2 of the paper. 
 
-d) Code to plot data on a log-log plot 
+d) Code to plot data on a log-log plot:
 
 ![image](https://github.com/otter456/reproducible-research_homework/assets/150150890/cf35e228-eee1-4ccc-82ae-ce4f262389c2)
 
-e) The estimated volume of a 300 kb dsDNA virus is 6696966
+e) The estimated volume of a 300 kb dsDNA virus is 6696966.
 
 ## Bonus Question 
 
