@@ -14,6 +14,8 @@ b) A random seed is a value used to initiate a pseudo-random number-generator, s
 
 c) To make a reproducible simulation, use set.seed() to ensure the same random distribution is given each time. 
 
+**(found in question-4-code/random_walk.R)**
+
 ## Question 5
 
 a) There are 13 columns and 33 rows. 
@@ -27,6 +29,8 @@ d) Code to plot data on a log-log plot:
 ![image](https://github.com/otter456/reproducible-research_homework/assets/150150890/cf35e228-eee1-4ccc-82ae-ce4f262389c2)
 
 e) The estimated volume of a 300 kb dsDNA virus is 6696966.
+
+**(found in question-5-data/virology_model.R)**
 
 ## Bonus Question 
 
