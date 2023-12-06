@@ -41,12 +41,16 @@ Explain the difference between reproducibility and
 replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations
 do they have? 
 
-Reproducibility refers to instances when consistent results are obtained by independent researchers using the same input data, computations steps, methods and conditions of analysis. Replicability on the other hand  
+Reproducibility refers to instances when consistent results are obtained by independent researchers using the same input data, computations steps, methods and conditions of analysis. Replicability on the other hand, is obtaining consistant results across studies aimed at answering the same scieitific questions, each of which has obtained its own data. 
 
 Barba (2018) outlines three categories of defining reproducibility and replicability. (1) the terms can be used with no distinction between them. (2) 'Reproducibility refers to instances in which the original researcher's data and computer codes are used to regenerate the results, while replicability refers to instances in which a researcher collects new data to arrive at the same scientific findings as a previous study. (3) 'Reproducibility refers to independent researchers arriving at the same results using their own data and methods, while replicability refers to a different team arriving at the same results using the original author's artifacts. 
 
+### References 
 
-# INSTRUCTIONS
+- National Academies of Sciences, Engineering, and Medicine 2019. Reproducibility
+and Replicability in Science. Washington, DC: The National Academies Press.
+[ https://www.ncbi.nlm.nih.gov/books/NBK547546/# ]
+# INSTRUCTIONS FOR ASSIGNMENT 
 
 ## Introduction
 
