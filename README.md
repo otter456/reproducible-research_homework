@@ -14,6 +14,9 @@ b) A random seed is a value used to initiate a pseudo-random number-generator, s
 
 c) To make a reproducible simulation, use set.seed() to ensure the same random distribution is given each time. 
 
+![image](https://github.com/otter456/reproducible-research_homework/assets/150150890/e63d8da1-2d55-40f8-b69c-485226d2e53c)
+
+
 **(found in question-4-code/random_walk.R)**
 
 ## Question 5
@@ -26,13 +29,21 @@ c) After running the linear model, we find that the estimate for the intercept =
 
 d) Code to plot data on a log-log plot:
 
-![image](https://github.com/otter456/reproducible-research_homework/assets/150150890/cf35e228-eee1-4ccc-82ae-ce4f262389c2)
+![image](https://github.com/otter456/reproducible-research_homework/assets/150150890/e3bc71c0-5d66-4b0c-9062-bb829be332ca)
 
 e) The estimated volume of a 300 kb dsDNA virus is 6696966.
 
 **(found in question-5-data/virology_model.R)**
 
 ## Bonus Question 
+
+Explain the difference between reproducibility and
+replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations
+do they have? 
+
+Reproducibility refers to instances when consistent results are obtained by independent researchers using the same input data, computations steps, methods and conditions of analysis. Replicability on the other hand  
+
+Barba (2018) outlines three categories of defining reproducibility and replicability. (1) the terms can be used with no distinction between them. (2) 'Reproducibility refers to instances in which the original researcher's data and computer codes are used to regenerate the results, while replicability refers to instances in which a researcher collects new data to arrive at the same scientific findings as a previous study. (3) 'Reproducibility refers to independent researchers arriving at the same results using their own data and methods, while replicability refers to a different team arriving at the same results using the original author's artifacts. 
 
 
 # INSTRUCTIONS
