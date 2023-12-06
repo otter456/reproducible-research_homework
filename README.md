@@ -4,7 +4,7 @@
 
 ## Questions 1-3
 
-Answers to questions 1, 2, and 3 can be found in the README.md within the dev branch of my logistic_growth repository: https://github.com/otter456/logistic_growth
+Answers to questions 1, 2, and 3 can be found in the README.md my logistic_growth repository: https://github.com/otter456/logistic_growth
 
 ## Question 4
 
@@ -43,20 +43,48 @@ e) The estimated volume of a 300 kb dsDNA virus is 6884015 using the below code.
 replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations
 do they have?* 
 
-Reproducibility refers to instances when consistent results are obtained by independent researchers using the same input data, computations steps, methods and conditions of analysis. Replicability on the other hand, is obtaining consistant results across studies aimed at answering the same scieitific questions, each of which has obtained its own data. 
+Both reproducibility and replicability contribute to the reliability of scientific research.
 
-Git is the most commonly used version control system and can help to enhance reproducibility and replicability of sceintific research. It is used for tracking changes in the course code, enabling multiple developers to work together on non-linear development. This is possible because of its branching capabilities which make it advantageous over centralised version control systems. 
+* Reproducibility refers to instances when consistent results are obtained by independent researchers using the same input data, computations steps, methods and conditions of analysis. This is checking whether the experiment or analysis can be reliably repeated by others to obtain the same results.
 
+* On the other hand, replicability is obtaining consistant results across different studies aimed at answering the same scieitific questions, each of which has obtained its own data. The important concept here is seeing if the same results are obtained, when new data (possibly with different method) is collected and new analyses are completed. 
 
- 
+To help to enhance reproducibility and replicability of sceintific research we can use Git and GitHub
 
+* Git is the most commonly used version control system for tracking changes in the course code, enabling multiple developers to work together on non-linear development. 
+
+* GitHub is a web-based hosting service where you can upload and manage Git repositories. 
+
+Advantages and limiations of Git and GitHub: 
+
+1. Open research
+   
+   * An advantage of using Git/Github is that is makes research publically available, reusable and transparent by increasing discoverability and visibility of your work.
+      
+3. Collaboration
+   
+  * Git provides the tools needed for branching, merging and tracking changes which makes it adventageous over centralised version control systems. However, GitHub allows collaboration to aid communication between team mates and quality control.
+    
+2. Interface
+
+  * GitHub is more user-friendly than Git because it allows browsing of repositories without using the command line. Git therefore has a less feature-rich interface.
+    
+3. Issue tracking
+   * Git focuses on version control so doesn't include project management features. These can be accessed by using GitHub which has built-in issue tracking tools to organise project and track bugs.
+  
+4. Transitioning platforms
+
+   * One advantage that Git has over GitHub is that using Git makes it easier to transfer projects to other Git hosting services if needed. This is becuase only using GitHub can make you reliant on their specialised features, some of which are not transferable. 
+     
 ### References 
 
 - [ https://www.ncbi.nlm.nih.gov/books/NBK547546/# ]
 
+-[https://simplilearn.com/tutorials/git-tutorial/git-vs-github]
+
 - [https://www.nobledesktop.com/learn/git/what-is-git#:~:text=Git%20is%20the%20most%20commonly,be%20merged%20into%20one%20source.]
 
-- 
+
 # INSTRUCTIONS FOR ASSIGNMENT 
 
 ## Introduction
