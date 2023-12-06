@@ -75,11 +75,11 @@ Advantages and limiations of Git and GitHub:
      
 ### References 
 
-- [ https://www.ncbi.nlm.nih.gov/books/NBK547546/# ]
+- [https://www.ncbi.nlm.nih.gov/books/NBK547546/#]
 
 - [https://simplilearn.com/tutorials/git-tutorial/git-vs-github]
 
-- [https://www.nobledesktop.com/learn/git/what-is-git#:~:text=Git%20is%20the%20most%20commonly,be%20merged%20into%20one%20source.]
+- [https://www.nobledesktop.com/learn/git/what-is-git]
 
 
 # INSTRUCTIONS FOR ASSIGNMENT 
