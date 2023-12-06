@@ -6,7 +6,7 @@ install.packages("dplyr")
 #load package
 library(dplyr)
 
-#load data
+#load data and set working directory to source file location
 dsDNA_data <- read.csv("Cui_etal2014.csv")
 
 #PART A
@@ -35,15 +35,17 @@ figure <- ggplot(data = dimension_data, aes(x = L_log, y = V_log))+
   geom_point() +
   geom_smooth(method = lm) +
   labs(x = "log[Genome length (kb)]", y = "log[Virion volume (nm3)]") +
-  theme_bw()
+  theme_bw() +
+  theme(axis.title.x = element_text(size = 13, face = "bold"),
+        axis.title.y = element_text(size = 13, face = "bold"))
 
 #print the figure 
 figure
 
 #function to find virion volume using model fit parameters
 volume <- function(length) {
-  alpha = 1.5152
-  beta = 1181.8
+  alpha = 1.52
+  beta = 1182
   return(beta*length^alpha)
 }
 
