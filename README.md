@@ -55,7 +55,7 @@ Advantages and limitations of Git and GitHub:
 
 1. Open research
    
-* An advantage of using Git/GitHub is that is makes research publicaly available, reusable and transparent by increasing discoverability and visibility of your work.
+* An advantage of using Git/GitHub is that is makes research publicaly available, reusable and transparent by increasing discoverability and visibility of your work. This enhances reproducibility and replicability of scientific research because 
       
 3. Collaboration
    
